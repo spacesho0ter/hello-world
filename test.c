@@ -15,13 +15,13 @@ int main(int argc, char* argv[])
 		printf("hehe.\n");
 		return 0;
 	}	
-	int i = 0;
+	int i = 1;
 	while(i<argc)
 	{
 		printf("imput %d is: %s.\n", i, argv[i]);
 		i++;
 	}
-	tgt = argv[rand()%argc];
+	tgt = argv[rand()%argc+1];
 	length = strlen(tgt);
 	printf("So your choice shall be %s,", tgt);
 	printf("length is:%d,  ", length);
