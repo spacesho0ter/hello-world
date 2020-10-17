@@ -104,19 +104,19 @@ def bd_temple_code():
 		if sum_time%20000 == 0:
 			if proc_switch == 3:
 				print('processing. . .')
-				proc_switch == 4
+				proc_switch = 4
 			if proc_switch == 2:
 				print('processing. .')
-				proc_switch == 3
+				proc_switch = 3
 			if proc_switch == 1:
 				print('processing.')
-				proc_switch == 2
+				proc_switch = 2
 			if proc_switch == 0:
 				print('processing')
-				proc_switch == 1
+				proc_switch = 1
 			if proc_switch == 4:
-				proc_switch == 0
-			sum_time = 1
+				proc_switch = 0
+				sum_time = 1
 		#target = 5**20
 		#sum_20 = 0
 		#break_wai = 0
