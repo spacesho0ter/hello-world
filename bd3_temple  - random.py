@@ -95,12 +95,27 @@ def bd_temple_code():
 	
 	a = 1
 	sum_time = 0
+	proc_switch = 0
 	while(a):
 		
 		sum_total = 0
 		sum_time+=1
-		if sum_time%20000 == 0
-			print('processing...')
+		#print(str(sum_time))
+		if sum_time%20000 == 0:
+			if proc_switch == 3:
+				print('processing. . .')
+				proc_switch == 4
+			if proc_switch == 2:
+				print('processing. .')
+				proc_switch == 3
+			if proc_switch == 1:
+				print('processing.')
+				proc_switch == 2
+			if proc_switch == 0:
+				print('processing')
+				proc_switch == 1
+			if proc_switch == 4:
+				proc_switch == 0
 			sum_time = 1
 		#target = 5**20
 		#sum_20 = 0
@@ -128,7 +143,7 @@ def bd_temple_code():
 			tgt = int(random.random()*4)+1
 			
 			hand[sum_total]=tgt
-			print(str(hand[sum_total]))
+			#print(str(hand[sum_total]))
 			if tgt ==1:
 				function1()
 			elif tgt == 2:
