@@ -118,7 +118,7 @@ def bd_temple_code():
 			p44 = 2
 			
 			if no_work !=1:
-				if sum_20%1000000 == 0:
+				if sum_20%160000 == 159999:
 					print(hand)
 				for i in range(0,20):
 					tgt = hand[19-i]
