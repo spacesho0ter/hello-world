@@ -83,7 +83,7 @@ def function4():
 	
 	
 	
-	#for random try-no limit  step- 至少10步不可能了
+	#for random try-no limit  step
 def bd_temple_code():
 
 	global p41
@@ -162,7 +162,7 @@ def bd_temple_code():
 		#print(str(sum_total))
 	
 '''
-#for all try-20 step- 至少10步不可能了
+#for all try-20 
 def bd_temple_code():
 
 	global p41
@@ -226,7 +226,7 @@ def bd_temple_code():
 			if check()==0:
 				print(hand)
 				break
-			#进位
+			
 			
 			sum_20 += 1
 
