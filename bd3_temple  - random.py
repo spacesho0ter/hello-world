@@ -94,11 +94,14 @@ def bd_temple_code():
 	hand = [0]*(target_step+2)
 	
 	a = 1
-
+	sum_time = 0
 	while(a):
 		
 		sum_total = 0
-		
+		sum_time+=1
+		if sum_time%20000 == 0
+			print('processing...')
+			sum_time = 1
 		#target = 5**20
 		#sum_20 = 0
 		#break_wai = 0
